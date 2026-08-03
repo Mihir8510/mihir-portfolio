@@ -1,3 +1,4 @@
+```jsx
 import './App.css'
 
 function App() {
@@ -23,12 +24,12 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="hero-section">
         <div className="hero-content">
+          
           <img
-            src="/profile.jpg"
-            alt="Mihir Darji"
-            className="profile-photo"
+              src="/profile.jpg"
+              alt="Mihir Darji"
+              className="profile-photo"
           />
-
           <p className="intro">Hello, I'm</p>
 
           <h1>Mihir Darji</h1>
@@ -36,8 +37,9 @@ function App() {
           <h2>Software Developer</h2>
 
           <p className="hero-text">
-            Software Developer specializing in scalable web applications
-            using Python, FastAPI, and Django ecosystems.
+            Software Developer with 1.5 years of total work experience
+            specializing in scalable web applications using Python, FastAPI,
+            and Django ecosystems.
           </p>
 
           <div className="hero-buttons">
@@ -53,7 +55,6 @@ function App() {
               Download Resume
             </a>
           </div>
-
           <div className="social-links">
             <a
               href="https://github.com/Mihir8510"
@@ -85,18 +86,19 @@ function App() {
         <div className="about-content">
           <p>
             I am a Software Developer specializing in designing and developing
-            scalable web applications using Python, FastAPI, and Django.
+            scalable web applications using Python, FastAPI, and Django
+            ecosystems.
           </p>
 
           <p>
-            I have experience working with backend API architecture,
-            asynchronous programming, REST APIs, and database technologies
-            including SQL Server and MySQL.
+            I have a strong understanding of system design, backend API
+            architecture, asynchronous programming, and database optimization
+            using SQL Server and MySQL.
           </p>
 
           <p>
-            I enjoy building reliable applications, solving technical
-            problems, and continuously improving my development skills.
+            I am experienced in collaborating across cross-functional teams to
+            deliver performance-driven features and clean system integrations.
           </p>
         </div>
       </section>
@@ -128,98 +130,97 @@ function App() {
 
           <div className="skill">REST APIs</div>
           <div className="skill">Asynchronous Programming</div>
-          <div className="skill">API Development</div>
-          <div className="skill">Authentication</div>
-          <div className="skill">Cloud Deployment</div>
+          <div className="skill">High-Performance API Gateways</div>
+          <div className="skill">Secure Authentication Architecture</div>
+          <div className="skill">Cloud Deployment Models</div>
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="section">
-        <h2 className="section-title">Projects</h2>
+    {/* Projects Section */}
+    <section id="projects" className="section">
+      <h2 className="section-title">Projects</h2>
 
-        <div className="projects-container">
+      <div className="projects-container">
 
-          {/* Project 1 */}
-          <div className="project-card">
-            <h3>AI-First CRM</h3>
+        {/* Project 1 */}
+        <div className="project-card">
+          <h3>AI-First CRM</h3>
 
-            <p>
-              An AI-powered CRM application designed to manage and summarize
-              interactions using modern AI and web technologies.
-            </p>
+          <p>
+            An AI-powered CRM application designed to manage and summarize
+            interactions using modern AI and web technologies.
+          </p>
 
-            <div className="tech-stack">
-              <span>React</span>
-              <span>FastAPI</span>
-              <span>MySQL</span>
-              <span>LangGraph</span>
-            </div>
-
-            <a
-              href="https://github.com/Mihir8510/AI-First-CRM"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Code →
-            </a>
+          <div className="tech-stack">
+            <span>React</span>
+            <span>FastAPI</span>
+            <span>MySQL</span>
+            <span>LangGraph</span>
           </div>
 
-          {/* Project 2 */}
-          <div className="project-card">
-            <h3>ATM System</h3>
-
-            <p>
-              An ATM management application with banking operations,
-              authentication, transactions, balance management, and
-              transaction history functionality.
-            </p>
-
-            <div className="tech-stack">
-              <span>Python</span>
-              <span>FastAPI</span>
-              <span>MySQL</span>
-              <span>JavaScript</span>
-            </div>
-
-            <a
-              href="https://github.com/Mihir8510/ATM-SY"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Code →
-            </a>
-          </div>
-
-          {/* Project 3 */}
-          <div className="project-card">
-            <h3>LSTM Text Generator</h3>
-
-            <p>
-              A machine learning project focused on generating text using
-              an LSTM-based neural network model.
-            </p>
-
-            <div className="tech-stack">
-              <span>Python</span>
-              <span>LSTM</span>
-              <span>Machine Learning</span>
-            </div>
-
-            <a
-              href="https://github.com/Mihir8510/lstm-text-generator"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View Code →
-            </a>
-          </div>
-
+          <a
+            href="https://github.com/Mihir8510/AI-First-CRM"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            View Code →
+          </a>
         </div>
-      </section>
+
+        {/* Project 2 */}
+        <div className="project-card">
+          <h3>ATM System</h3>
+
+          <p>
+            An ATM management application with banking operations and
+            transaction-related functionality.
+          </p>
+
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a
+            href="https://github.com/Mihir8510/ATM-SY"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            View Code →
+          </a>
+        </div>
+
+        {/* Project 3 */}
+        <div className="project-card">
+          <h3>LSTM Text Generator</h3>
+
+          <p>
+            A machine learning project focused on generating text using an
+            LSTM-based neural network model.
+          </p>
+
+          <div className="tech-stack">
+            <span>Python</span>
+            <span>LSTM</span>
+            <span>Machine Learning</span>
+          </div>
+
+          <a
+            href="https://github.com/Mihir8510/lstm-text-generator"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            View Code →
+          </a>
+        </div>
+
+      </div>
+    </section>
 
       {/* Experience Section */}
       <section id="experience" className="section">
@@ -239,18 +240,20 @@ function App() {
 
             <ul>
               <li>
-                Designing and developing backend RESTful APIs and
-                asynchronous endpoints using Python, Django, and FastAPI.
+                Designing, developing, and maintaining scalable backend
+                RESTful APIs and high-performance asynchronous endpoints using
+                Python, Django, and FastAPI frameworks.
               </li>
 
               <li>
-                Working with backend architecture, API development,
-                structured data flows, and application integrations.
+                Developing robust data architecture models and structured API
+                views to ensure secure, clean, and reliable system data flows.
               </li>
 
               <li>
-                Working with SQL Server and MySQL databases for data
-                management and application development.
+                Optimizing database scripts, stored procedures, complex query
+                configurations, and schema designs across SQL Server and MySQL
+                platforms.
               </li>
             </ul>
           </div>
@@ -267,18 +270,21 @@ function App() {
 
             <ul>
               <li>
-                Worked with Python, Django, HTML5, CSS3, Bootstrap,
-                and MySQL technologies.
+                Gained hands-on architecture experience in software
+                development utilizing Python, Django, HTML5, CSS3, Bootstrap,
+                and relational MySQL instances.
               </li>
 
               <li>
-                Worked on user authentication, role-based access control,
-                and data validation.
+                Designed and integrated user authentication protocols, custom
+                role-based access control measures, and precise data security
+                validations.
               </li>
 
               <li>
-                Developed responsive web applications with dynamic
-                functionality and database integration.
+                Developed fully functional responsive web applications
+                supporting dynamic product inventories and secure transactional
+                workflows.
               </li>
             </ul>
           </div>
@@ -295,18 +301,21 @@ function App() {
 
             <ul>
               <li>
-                Contributed to feature development and module structures
-                for a University Management Portal.
+                Contributed to functional feature developments and module
+                structures for an enterprise University Management Portal
+                platform.
               </li>
 
               <li>
-                Worked on web interfaces for performance reports,
-                schedule management, and tracking systems.
+                Built clean web interfaces mapping key application workflows
+                for performance reports, schedule managers, and tracking
+                systems.
               </li>
 
               <li>
-                Created manual test cases and performed functional
-                testing to improve application reliability.
+                Authored precise manual test cases and validated functional
+                paths to ensure application reliability and cross-module
+                consistency.
               </li>
             </ul>
           </div>
@@ -321,7 +330,7 @@ function App() {
         <div className="education-card">
           <h3>Bachelor of Engineering</h3>
 
-          <h4>Computer Engineering</h4>
+          <h4>Computer Science</h4>
 
           <p>Dr. Jivraj Mehta Institute Of Technology</p>
 
@@ -353,7 +362,7 @@ function App() {
 
         <div className="contact-links">
           <a href="mailto:mihirtailornil22@gmail.com">
-            📧 Email
+             📧 Email
           </a>
 
           <a
@@ -363,7 +372,6 @@ function App() {
           >
             💼 LinkedIn
           </a>
-
           <a
             href="https://github.com/Mihir8510"
             target="_blank"
@@ -382,4 +390,5 @@ function App() {
   )
 }
 
-export default App
+export default App;
+```
