@@ -14,6 +14,7 @@ function App() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
+            <a href="#key-projects">Key Projects</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
           </div>
@@ -119,6 +120,7 @@ function App() {
 
           <div className="skill">SQL Server</div>
           <div className="skill">MySQL</div>
+          <div className="skill">PostgreSQL</div>
 
           <div className="skill">Visual Studio Code</div>
           <div className="skill">Postman</div>
@@ -309,6 +311,71 @@ function App() {
                 testing to improve application reliability.
               </li>
             </ul>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Key Projects Section */}
+      <section id="key-projects" className="section">
+        <h2 className="section-title">Key Projects</h2>
+
+        <div className="projects-container">
+
+          {/* URL Shortener API */}
+          <div className="project-card">
+            <h3>URL Shortener API</h3>
+
+            <p>
+              A RESTful URL shortening API built with FastAPI and PostgreSQL.
+              The application provides URL shortening and redirection
+              functionality with a clean backend architecture.
+            </p>
+
+            <div className="tech-stack">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>PostgreSQL</span>
+              <span>SQLAlchemy</span>
+              <span>REST API</span>
+            </div>
+
+            <a
+              href="https://github.com/Mihir8510/url-shortener-api"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Code →
+            </a>
+          </div>
+
+          {/* AI-Assisted Box Selection */}
+          <div className="project-card">
+            <h3>AI-Assisted Box Selection System</h3>
+
+            <p>
+              An ecommerce-focused system that recommends suitable shipping
+              boxes based on product dimensions and weight, helping optimize
+              packaging selection.
+            </p>
+
+            <div className="tech-stack">
+              <span>Python</span>
+              <span>Django</span>
+              <span>SQLite</span>
+              <span>REST API</span>
+              <span>AI-Assisted Development</span>
+            </div>
+
+            <a
+              href="https://github.com/Mihir8510/ai-assisted-box-selection-system"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Code →
+            </a>
           </div>
 
         </div>
