@@ -115,16 +115,20 @@ function App() {
 
           <div className="skill">FastAPI</div>
           <div className="skill">Django</div>
+          <div className="skill">React</div>
+          <div className="skill">Vite</div>
           <div className="skill">Bootstrap</div>
           <div className="skill">WordPress</div>
 
           <div className="skill">SQL Server</div>
           <div className="skill">MySQL</div>
           <div className="skill">PostgreSQL</div>
+          <div className="skill">SQLite</div>
 
           <div className="skill">Visual Studio Code</div>
           <div className="skill">Postman</div>
           <div className="skill">Manual Testing</div>
+          <div className="skill">Pytest</div>
           <div className="skill">Git</div>
           <div className="skill">Version Control</div>
 
@@ -370,6 +374,36 @@ function App() {
 
             <a
               href="https://github.com/Mihir8510/ai-assisted-box-selection-system"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View Code →
+            </a>
+          </div>
+
+          {/* TaskFlow */}
+          <div className="project-card">
+            <h3>TaskFlow – Task Management App</h3>
+
+            <p>
+              A full-stack task management application with a Kanban-style
+              board for creating, updating, deleting, filtering, and managing
+              tasks efficiently.
+            </p>
+
+            <div className="tech-stack">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>Vite</span>
+              <span>SQLAlchemy</span>
+              <span>SQLite</span>
+              <span>Pytest</span>
+            </div>
+
+            <a
+              href="https://github.com/Mihir8510/taskflow"
               target="_blank"
               rel="noreferrer"
               className="project-link"
