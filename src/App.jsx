@@ -240,7 +240,7 @@ function App() {
             <h4>Datanova Software Solutions Pvt Ltd.</h4>
 
             <p className="experience-date">
-              March 2026 - Present
+              March 2026 - july 2026
             </p>
 
             <ul>
