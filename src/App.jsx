@@ -34,15 +34,17 @@ function App() {
 
           <h1>Mihir Darji</h1>
 
-          <h2>Software Developer</h2>
+          <h2>Full Stack Developer</h2>
 
           <p className="hero-text">
-            Software Developer specializing in scalable web applications
-            using Python, FastAPI, and Django ecosystems.
+            Full Stack Developer with 2+ years of experience,
+            including internships, building web applications and
+            backend systems using Python, Django, FastAPI, NestJS,
+            and Next.js.
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects" className="btn primary-btn">
+            <a href="#key-projects" className="btn primary-btn">
               View Projects
             </a>
 
@@ -85,19 +87,24 @@ function App() {
 
         <div className="about-content">
           <p>
-            I am a Software Developer specializing in designing and developing
-            scalable web applications using Python, FastAPI, and Django.
+            I am a Full Stack Developer with 2+ years of experience,
+            including internships, in building web applications and
+            backend systems. I work with technologies such as Python,
+            Django, FastAPI, NestJS, and Next.js.
           </p>
 
           <p>
-            I have experience working with backend API architecture,
-            asynchronous programming, REST APIs, and database technologies
-            including SQL Server and MySQL.
+            I have hands-on experience in developing RESTful APIs,
+            implementing JWT-based authentication, asynchronous
+            programming, and managing relational databases such as
+            PostgreSQL, SQL Server, and MySQL using Prisma ORM and
+            other database tools.
           </p>
 
           <p>
-            I enjoy building reliable applications, solving technical
-            problems, and continuously improving my development skills.
+            I enjoy solving technical problems, building reliable
+            applications, writing clean code, and continuously
+            learning new technologies to improve my development skills.
           </p>
         </div>
       </section>
@@ -106,37 +113,75 @@ function App() {
       <section id="skills" className="section">
         <h2 className="section-title">Skills & Technologies</h2>
 
-        <div className="skills-container">
-          <div className="skill">Python</div>
-          <div className="skill">HTML5</div>
-          <div className="skill">CSS3</div>
-          <div className="skill">JavaScript</div>
-          <div className="skill">SQL</div>
+        <div className="skills-category">
 
-          <div className="skill">FastAPI</div>
-          <div className="skill">Django</div>
-          <div className="skill">React</div>
-          <div className="skill">Vite</div>
-          <div className="skill">Bootstrap</div>
-          <div className="skill">WordPress</div>
+          <div className="skill-group">
+            <h3>Programming Languages</h3>
+            <div className="skills-container">
+              <div className="skill">Python</div>
+              <div className="skill">JavaScript</div>
+              <div className="skill">SQL</div>
+              <div className="skill">HTML5</div>
+              <div className="skill">CSS3</div>
+            </div>
+          </div>
 
-          <div className="skill">SQL Server</div>
-          <div className="skill">MySQL</div>
-          <div className="skill">PostgreSQL</div>
-          <div className="skill">SQLite</div>
+          <div className="skill-group">
+            <h3>Backend Technologies</h3>
+            <div className="skills-container">
+              <div className="skill">NestJS</div>
+              <div className="skill">Node.js</div>
+              <div className="skill">Django</div>
+              <div className="skill">FastAPI</div>
+              <div className="skill">Prisma ORM</div>
+              <div className="skill">REST APIs</div>
+              <div className="skill">JWT Authentication</div>
+            </div>
+          </div>
 
-          <div className="skill">Visual Studio Code</div>
-          <div className="skill">Postman</div>
-          <div className="skill">Manual Testing</div>
-          <div className="skill">Pytest</div>
-          <div className="skill">Git</div>
-          <div className="skill">Version Control</div>
+          <div className="skill-group">
+            <h3>Frontend Technologies</h3>
+            <div className="skills-container">
+              <div className="skill">React</div>
+              <div className="skill">Next.js</div>
+              <div className="skill">Bootstrap</div>
+              <div className="skill">WordPress</div>
+            </div>
+          </div>
 
-          <div className="skill">REST APIs</div>
-          <div className="skill">Asynchronous Programming</div>
-          <div className="skill">API Development</div>
-          <div className="skill">Authentication</div>
-          <div className="skill">Cloud Deployment</div>
+          <div className="skill-group">
+            <h3>Databases</h3>
+            <div className="skills-container">
+              <div className="skill">PostgreSQL</div>
+              <div className="skill">SQL Server</div>
+              <div className="skill">MySQL</div>
+              <div className="skill">SQLite</div>
+            </div>
+          </div>
+
+          <div className="skill-group">
+            <h3>Tools & Technologies</h3>
+            <div className="skills-container">
+              <div className="skill">Git</div>
+              <div className="skill">GitHub</div>
+              <div className="skill">VS Code</div>
+              <div className="skill">Postman</div>
+              <div className="skill">Pytest</div>
+              <div className="skill">Manual Testing</div>
+            </div>
+          </div>
+
+          <div className="skill-group">
+            <h3>Core Concepts</h3>
+            <div className="skills-container">
+              <div className="skill">CRUD Operations</div>
+              <div className="skill">API Development</div>
+              <div className="skill">Asynchronous Programming</div>
+              <div className="skill">REST API Design</div>
+              <div className="skill">Version Control</div>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -227,6 +272,7 @@ function App() {
         </div>
       </section>
 
+      
       {/* Experience Section */}
       <section id="experience" className="section">
         <h2 className="section-title">Work Experience</h2>
@@ -235,36 +281,58 @@ function App() {
 
           {/* Experience 1 */}
           <div className="experience-card">
-            <h3>Python Developer</h3>
-
-            <h4>Datanova Software Solutions Pvt Ltd.</h4>
+            <h3>Full Stack Developer</h3>
+            <h4>The Bombay Group</h4>
 
             <p className="experience-date">
-              March 2026 - july 2026
+              August 2026 - Present
             </p>
 
             <ul>
               <li>
-                Designing and developing backend RESTful APIs and
-                asynchronous endpoints using Python, Django, and FastAPI.
+                Developing backend applications using NestJS, Prisma ORM,
+                and PostgreSQL, with frontend functionality using Next.js,
+                JavaScript, and CSS.
               </li>
-
               <li>
-                Working with backend architecture, API development,
-                structured data flows, and application integrations.
+                Built a To-Do application with task creation, updating,
+                deletion, and management features.
               </li>
-
               <li>
-                Working with SQL Server and MySQL databases for data
-                management and application development.
+                Implemented JWT-based authentication, including registration,
+                login, logout, profile updates, and password reset functionality.
               </li>
             </ul>
           </div>
 
           {/* Experience 2 */}
           <div className="experience-card">
-            <h3>Full Stack Developer Intern</h3>
+            <h3>Python Developer</h3>
+            <h4>Datanova Software Solutions Pvt. Ltd.</h4>
 
+            <p className="experience-date">
+              March 2026 - July 2026
+            </p>
+
+            <ul>
+              <li>
+                Developed backend REST APIs and asynchronous endpoints
+                using Python, Django, and FastAPI.
+              </li>
+              <li>
+                Worked with API views, data models, and backend application
+                functionality.
+              </li>
+              <li>
+                Worked with SQL Server and MySQL, including query and
+                stored procedure optimization.
+              </li>
+            </ul>
+          </div>
+
+          {/* Experience 3 */}
+          <div className="experience-card">
+            <h3>Full Stack Developer Intern</h3>
             <h4>Weltec Institute</h4>
 
             <p className="experience-date">
@@ -273,46 +341,41 @@ function App() {
 
             <ul>
               <li>
-                Worked with Python, Django, HTML5, CSS3, Bootstrap,
-                and MySQL technologies.
+                Developed web application features using Python, Django,
+                HTML, CSS, Bootstrap, and MySQL.
               </li>
-
               <li>
                 Worked on user authentication, role-based access control,
                 and data validation.
               </li>
-
               <li>
-                Developed responsive web applications with dynamic
-                functionality and database integration.
+                Worked on database schemas and application workflows
+                for reliable data management.
               </li>
             </ul>
           </div>
 
-          {/* Experience 3 */}
+          {/* Experience 4 */}
           <div className="experience-card">
             <h3>WordPress Developer Intern</h3>
-
             <h4>Infonaya Software</h4>
 
             <p className="experience-date">
-              Jan 2024 - May 2024
+              January 2024 - May 2024
             </p>
 
             <ul>
               <li>
-                Contributed to feature development and module structures
-                for a University Management Portal.
+                Contributed to feature development and modules for a
+                University Management Portal.
               </li>
-
               <li>
-                Worked on web interfaces for performance reports,
-                schedule management, and tracking systems.
+                Worked on performance reports, scheduling, and tracking
+                functionality.
               </li>
-
               <li>
-                Created manual test cases and performed functional
-                testing to improve application reliability.
+                Created manual test cases and performed functional testing
+                to improve application reliability.
               </li>
             </ul>
           </div>
@@ -320,6 +383,7 @@ function App() {
         </div>
       </section>
 
+      
       {/* Key Projects Section */}
       <section id="key-projects" className="section">
         <h2 className="section-title">Key Projects</h2>
@@ -344,12 +408,8 @@ function App() {
               <span>REST API</span>
             </div>
 
-            <a
-              href="https://github.com/Mihir8510/url-shortener-api"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/Mihir8510/url-shortener-api"
+              target="_blank" rel="noreferrer" className="project-link">
               View Code →
             </a>
           </div>
@@ -372,12 +432,8 @@ function App() {
               <span>AI-Assisted Development</span>
             </div>
 
-            <a
-              href="https://github.com/Mihir8510/ai-assisted-box-selection-system"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/Mihir8510/ai-assisted-box-selection-system"
+              target="_blank" rel="noreferrer" className="project-link">
               View Code →
             </a>
           </div>
@@ -402,12 +458,58 @@ function App() {
               <span>Pytest</span>
             </div>
 
-            <a
-              href="https://github.com/Mihir8510/taskflow"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
+            <a href="https://github.com/Mihir8510/taskflow"
+              target="_blank" rel="noreferrer" className="project-link">
+              View Code →
+            </a>
+          </div>
+
+          {/* Login & Authentication System */}
+          <div className="project-card">
+            <h3>Login & Authentication System</h3>
+
+            <p>
+              A full-stack authentication application with user registration,
+              login, JWT-based authentication, profile management, and
+              OTP-based password reset through email verification.
+            </p>
+
+            <div className="tech-stack">
+              <span>NestJS</span>
+              <span>Next.js</span>
+              <span>Prisma ORM</span>
+              <span>PostgreSQL</span>
+              <span>JWT</span>
+              <span>Nodemailer</span>
+            </div>
+
+            <a href="https://github.com/Mihir8510/Login-Project"
+              target="_blank" rel="noreferrer" className="project-link">
+              View Code →
+            </a>
+          </div>
+
+          {/* To-Do Application */}
+          <div className="project-card">
+            <h3>To-Do Application</h3>
+
+            <p>
+              A full-stack task management application that allows users
+              to create, view, update, and delete tasks through a simple
+              and user-friendly interface.
+            </p>
+
+            <div className="tech-stack">
+              <span>NestJS</span>
+              <span>Prisma ORM</span>
+              <span>PostgreSQL</span>
+              <span>Next.js</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+
+            <a href="https://github.com/Mihir8510/TO-DO_Project"
+              target="_blank" rel="noreferrer" className="project-link">
               View Code →
             </a>
           </div>
@@ -415,16 +517,17 @@ function App() {
         </div>
       </section>
 
+      
       {/* Education Section */}
       <section id="education" className="section">
         <h2 className="section-title">Education</h2>
 
         <div className="education-card">
-          <h3>Bachelor of Engineering</h3>
+          <h3>Bachelor of Engineering (B.E.)</h3>
 
           <h4>Computer Engineering</h4>
 
-          <p>Dr. Jivraj Mehta Institute Of Technology</p>
+          <p>Dr. Jivraj Mehta Institute of Technology</p>
 
           <p>2020 - 2024</p>
 
@@ -432,7 +535,7 @@ function App() {
         </div>
 
         <div className="education-card">
-          <h3>HSC</h3>
+          <h3>Higher Secondary Certificate (HSC)</h3>
 
           <h4>GHSEB Board</h4>
 
@@ -443,13 +546,15 @@ function App() {
           <p>Vadodara, Gujarat</p>
         </div>
       </section>
-
+      
       {/* Contact Section */}
       <section id="contact" className="section contact-section">
         <h2 className="section-title">Let's Connect</h2>
 
         <p>
-          I am open to new opportunities and would love to connect with you.
+          I am currently open to new opportunities as a Full Stack Developer.
+          Feel free to contact me for job opportunities, collaborations,
+          or professional discussions.
         </p>
 
         <div className="contact-links">
@@ -479,8 +584,8 @@ function App() {
       <footer>
         <p>© 2026 Mihir Darji. All Rights Reserved.</p>
       </footer>
-    </>
-  )
-}
+      </>
+    )
+    }
 
-export default App
+    export default App
